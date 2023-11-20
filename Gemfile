@@ -20,5 +20,5 @@ end
 
 group :development do
   gem 'foreman', '~> 0.87.2'
-  gem 'rubocop-rails', '~> 2.22.1', require: false
+  gem 'rubocop-rails', '~> 2.22.2', require: false
 end
