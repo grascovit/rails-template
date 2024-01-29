@@ -16,7 +16,7 @@ gem 'vite_rails', '~> 3.0.17'
 group :development, :test do
   gem 'dotenv-rails', '~> 2.8.1'
   gem 'pry', '~> 0.14.2'
-  gem 'rspec-rails', '~> 6.1.0'
+  gem 'rspec-rails', '~> 6.1.1'
 end
 
 group :development do
