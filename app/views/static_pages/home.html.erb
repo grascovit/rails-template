@@ -1,0 +1,9 @@
+<% if user_signed_in? %>
+  <div class="h-screen flex flex-col items-center justify-center">
+    <%= current_user.email %>
+  </div>
+<% else %>
+  <div class="h-screen flex flex-col items-center justify-center">
+    <%= link_to t('.sign_in'), new_magic_link_path %>
+  </div>
+<% end %>

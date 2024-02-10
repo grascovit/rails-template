@@ -1,0 +1,5 @@
+pt-BR:
+  user_mailer:
+    magic_link:
+      subject: "Faça login no PlaceholderName"
+      sign_in: "Entrar"

@@ -1,0 +1,10 @@
+en:
+  magic_links:
+    new:
+      header: "Welcome"
+      subheader: "Enter your email and receive a magic link to instantly sign in or sign up, no password needed!"
+      email: "Email"
+      submit: "Send me a link"
+  static_pages:
+    home:
+      sign_in: "Sign in"

@@ -7,11 +7,10 @@
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
     <%= vite_client_tag %>
-    <%= vite_javascript_tag 'application' %>
-    <%= vite_stylesheet_tag 'application' %>
+    <%= vite_javascript_tag 'authentication' %>
+    <%= vite_stylesheet_tag 'authentication' %>
   </head>
-  <body>
-    <%= render 'shared/flash_messages' %>
+  <body class="h-screen flex flex-col items-center justify-center bg-gray-100">
     <%= yield %>
   </body>
 </html>

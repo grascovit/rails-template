@@ -1,0 +1,14 @@
+en:
+  errors:
+    unauthorized: "Please sign in before continuing."
+  magic_links:
+    create:
+      email_required: "Please enter your email address."
+      sign_in_email_sent: "We have sent you an email with a link to sign in. Please check your inbox."
+      sign_up_email_sent: "Your account has been successfully created. Please click the link we've sent to you to sign in."
+  sessions:
+    new:
+      success: "Signed in successfully."
+      failure: "The sign in link has expired. Please try again."
+    destroy:
+      success: "See you soon!"

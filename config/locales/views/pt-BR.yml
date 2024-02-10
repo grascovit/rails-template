@@ -1,0 +1,10 @@
+pt-BR:
+  magic_links:
+    new:
+      header: "Bem-vindo"
+      subheader: "Insira seu e-mail e receba um link para entrar, sem necessidade de senha!"
+      email: "E-mail"
+      submit: "Me envie um link para entrar"
+  static_pages:
+    home:
+      sign_in: "Entrar"

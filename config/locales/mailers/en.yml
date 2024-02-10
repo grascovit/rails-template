@@ -1,0 +1,5 @@
+en:
+  user_mailer:
+    magic_link:
+      subject: "Sign in to PlaceholderName"
+      sign_in: "Sign in"

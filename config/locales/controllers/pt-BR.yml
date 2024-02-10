@@ -1,0 +1,14 @@
+pt-BR:
+  errors:
+    unauthorized: "Por favor, faça login antes de continuar."
+  magic_links:
+    create:
+      email_required: "Por favor, insira seu endereço de e-mail."
+      sign_in_email_sent: "Enviamos um e-mail com um link para entrar. Por favor, verifique sua caixa de entrada."
+      sign_up_email_sent: "Sua conta foi criada com sucesso. Por favor, clique no link que enviamos para você para entrar."
+  sessions:
+    new:
+      success: "Bem-vindo!"
+      failure: "O link de entrada expirou. Por favor, tente novamente."
+    destroy:
+      success: "Até breve!"
