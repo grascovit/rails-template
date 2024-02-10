@@ -32,6 +32,7 @@ The following environment variables are required before deploying to production:
 - `MAILER_DOMAIN` (e.g. `yourprojectname.com`)
 - `MAILER_USERNAME`
 - `MAILER_PASSWORD`
+- `RAILS_MASTER_KEY` (generate after running `rails credentials:edit`)
 
 ### Tools
 
