@@ -1,7 +1,10 @@
 # frozen_string_literal: true
 
 class User < ApplicationRecord
-  validates :email, presence: true, format: URI::MailTo::EMAIL_REGEXP
+  validates :email,
+            presence: true,
+            uniqueness: { case_sensitive: false },
+            format: URI::MailTo::EMAIL_REGEXP
   validates :phone_number,
             uniqueness: { case_sensitive: false },
             allow_blank: true
