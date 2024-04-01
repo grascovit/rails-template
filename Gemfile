@@ -23,7 +23,7 @@ end
 
 group :development do
   gem 'foreman', '~> 0.87.2'
-  gem 'letter_opener', '~> 1.9.0'
+  gem 'letter_opener', '~> 1.10.0'
   gem 'rubocop-rails', '~> 2.24.0', require: false
 end
 
