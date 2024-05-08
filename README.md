@@ -10,7 +10,7 @@ Rails 7.1 application template that includes TailwindCSS, Stimulus and Vite.
 git clone --depth=1 --branch=features/user-authentication git@github.com:grascovit/rails-template.git your-project-name && cd your-project-name && rm -rf .git .github
 ```
 
-2. Run `bin/rails app:template LOCATION=https://gist.githubusercontent.com/grascovit/4e1e8d6b49ab62ad45ac19165686afad/raw/189082bbd2e53b5df1ba8b2053238b09beba0417/rails_template.rb` to replace the placeholder name with your project's name.
+2. Run `bin/rails app:template LOCATION=https://gist.githubusercontent.com/grascovit/4e1e8d6b49ab62ad45ac19165686afad/raw/ea1019531ec98787a739b12539cbfd079948c63f/rails_template.rb` to replace the placeholder name with your project's name.
 3. Be sure to confirm the domain at `app/mailer/application_mailer.rb`.
 4. Remember to set the credentials from your email service in `config/environments/production.rb` before deploying.
 5. Run the project with `foreman start -f Procfile.dev`.
