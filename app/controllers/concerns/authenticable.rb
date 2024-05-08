@@ -18,6 +18,6 @@ module Authenticable
   end
 
   def authenticate_user
-    redirect_to new_magic_link_path, alert: t('.errors.unauthorized') unless user_signed_in?
+    redirect_to new_magic_link_path, alert: t('errors.unauthorized') unless user_signed_in?
   end
 end
