@@ -22,12 +22,9 @@ The following environment variable is required:
 
 The following environment variables are required before deploying to production:
 - `BASE_URL` (e.g. `https://your-project-name.com`)
-- `MAILER_SERVER` (e.g. `smtp.your-email-provider.com`)
-- `MAILER_PORT` (e.g. `587`)
-- `MAILER_DOMAIN` (e.g. `yourprojectname.com`)
-- `MAILER_USERNAME`
-- `MAILER_PASSWORD`
-- `RAILS_MASTER_KEY` (generate after running `rails credentials:edit`)
+- `MAILGUN_API_KEY`
+- `MAILGUN_DOMAIN` (e.g. `yourprojectname.com`)
+- `RAILS_MASTER_KEY` (generated after running `rails credentials:edit`)
 
 ### Tools
 
