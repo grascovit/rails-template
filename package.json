@@ -1,7 +1,7 @@
 {
   "devDependencies": {
     "vite": "^5.4.0",
-    "vite-plugin-ruby": "^5.0.0"
+    "vite-plugin-ruby": "^5.1.0"
   },
   "dependencies": {
     "@hotwired/stimulus": "^3.2.2",
