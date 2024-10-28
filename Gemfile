@@ -8,7 +8,7 @@ ruby '3.2.3'
 gem 'mailgun-ruby', '~> 1.2.14'
 gem 'pg', '~> 1.5.7'
 gem 'puma', '~> 6.4.2'
-gem 'rails', '~> 7.1.3.4'
+gem 'rails', '~> 7.2.1.2'
 gem 'redis', '~> 5.2.0'
 gem 'turbo-rails', '~> 2.0.6'
 gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
