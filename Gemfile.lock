@@ -165,7 +165,7 @@ GEM
     psych (5.2.0)
       stringio
     public_suffix (5.0.5)
-    puma (6.4.3)
+    puma (6.5.0)
       nio4r (~> 2.0)
     racc (1.8.1)
     rack (3.1.8)
@@ -296,7 +296,7 @@ DEPENDENCIES
   mailgun-ruby (~> 1.2.15)
   pg (~> 1.5.9)
   pry (~> 0.14.2)
-  puma (~> 6.4.3)
+  puma (~> 6.5.0)
   rails (~> 8.0.0)
   rspec-rails (~> 7.1.0)
   rubocop-rails (~> 2.27.0)
