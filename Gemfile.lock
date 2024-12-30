@@ -132,7 +132,7 @@ GEM
     mailgun-ruby (1.2.15)
       rest-client (>= 2.0.2)
     marcel (1.0.4)
-    method_source (1.0.0)
+    method_source (1.1.0)
     mime-types (3.6.0)
       logger
       mime-types-data (~> 3.2015)
@@ -159,7 +159,7 @@ GEM
       ast (~> 2.4.1)
       racc
     pg (1.5.9)
-    pry (0.14.2)
+    pry (0.15.2)
       coderay (~> 1.1)
       method_source (~> 1.0)
     psych (5.2.0)
@@ -295,7 +295,7 @@ DEPENDENCIES
   letter_opener (~> 1.10.0)
   mailgun-ruby (~> 1.2.15)
   pg (~> 1.5.9)
-  pry (~> 0.14.2)
+  pry (~> 0.15.2)
   puma (~> 6.4.3)
   rails (~> 8.0.0)
   rspec-rails (~> 7.1.0)
