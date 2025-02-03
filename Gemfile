@@ -6,7 +6,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 ruby '3.3.7'
 
 gem 'jwt', '~> 2.10.1'
-gem 'mailgun-ruby', '~> 1.2.16'
+gem 'mailgun-ruby', '~> 1.3.1'
 gem 'pg', '~> 1.5.9'
 gem 'puma', '~> 6.5.0'
 gem 'rails', '~> 8.0.1'
@@ -25,7 +25,7 @@ end
 group :development do
   gem 'foreman', '~> 0.88.1'
   gem 'letter_opener', '~> 1.10.0'
-  gem 'rubocop-rails', '~> 2.29.0', require: false
+  gem 'rubocop-rails', '~> 2.29.1', require: false
 end
 
 group :test do
