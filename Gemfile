@@ -9,7 +9,7 @@ gem 'mailgun-ruby', '~> 1.3.1'
 gem 'pg', '~> 1.5.9'
 gem 'puma', '~> 6.5.0'
 gem 'rails', '~> 8.0.1'
-gem 'turbo-rails', '~> 2.0.11'
+gem 'turbo-rails', '~> 2.0.13'
 gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
 gem 'vite_rails', '~> 3.0.19'
 
