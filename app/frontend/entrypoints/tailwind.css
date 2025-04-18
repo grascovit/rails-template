@@ -1,0 +1,7 @@
+@import 'tailwindcss';
+
+@source '../../../app/views/**/*.{html,html.erb,erb}';
+@source '../../../app/helpers/**/*.rb';
+@source '../../../app/frontend/**/*.{vue,js,ts,jsx,tsx}';
+
+@plugin '@tailwindcss/forms';
