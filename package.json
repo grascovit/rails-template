@@ -5,11 +5,11 @@
   },
   "dependencies": {
     "@hotwired/stimulus": "^3.2.2",
-    "@hotwired/turbo-rails": "^8.0.13",
+    "@hotwired/turbo-rails": "^8.0.16",
     "@tailwindcss/forms": "^0.5.10",
-    "@tailwindcss/vite": "^4.1.4",
+    "@tailwindcss/vite": "^4.1.8",
     "stimulus-vite-helpers": "^3.1.0",
-    "tailwindcss": "4.1.4"
+    "tailwindcss": "4.1.8"
   },
   "scripts": {
     "build": "vite build --outDir public"
