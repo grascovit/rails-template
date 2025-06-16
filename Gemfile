@@ -15,7 +15,7 @@ gem 'vite_rails', '~> 3.0.19'
 
 group :development, :test do
   gem 'dotenv-rails', '~> 3.1.8'
-  gem 'factory_bot_rails', '~> 6.4.4'
+  gem 'factory_bot_rails', '~> 6.5.0'
   gem 'faker', '~> 3.5.1'
   gem 'pry', '~> 0.15.2'
   gem 'rspec-rails', '~> 8.0.0'
