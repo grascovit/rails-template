@@ -106,9 +106,9 @@ GEM
       faraday-net_http (>= 2.0, < 3.5)
       json
       logger
-    faraday-multipart (1.1.0)
+    faraday-multipart (1.1.1)
       multipart-post (~> 2.0)
-    faraday-net_http (3.4.0)
+    faraday-net_http (3.4.1)
       net-http (>= 0.5.0)
     foreman (0.88.1)
     globalid (1.2.1)
@@ -138,7 +138,7 @@ GEM
       net-imap
       net-pop
       net-smtp
-    mailgun-ruby (1.3.6)
+    mailgun-ruby (1.3.7)
       faraday (~> 2.1)
       faraday-multipart (~> 1.1.0)
       mime-types
@@ -147,7 +147,7 @@ GEM
     mime-types (3.7.0)
       logger
       mime-types-data (~> 3.2025, >= 3.2025.0507)
-    mime-types-data (3.2025.0527)
+    mime-types-data (3.2025.0624)
     mini_mime (1.1.5)
     minitest (5.25.5)
     multipart-post (2.4.1)
@@ -315,7 +315,7 @@ DEPENDENCIES
   faker (~> 3.5.1)
   foreman (~> 0.88.1)
   letter_opener (~> 1.10.0)
-  mailgun-ruby (~> 1.3.6)
+  mailgun-ruby (~> 1.3.7)
   pg (~> 1.5.9)
   pry (~> 0.15.2)
   puma (~> 6.6.0)
