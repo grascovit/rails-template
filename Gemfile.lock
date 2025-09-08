@@ -97,9 +97,9 @@ GEM
     dry-cli (1.2.0)
     erb (5.1.1)
     erubi (1.13.1)
-    factory_bot (6.5.4)
+    factory_bot (6.5.6)
       activesupport (>= 6.1.0)
-    factory_bot_rails (6.5.0)
+    factory_bot_rails (6.5.1)
       factory_bot (~> 6.5)
       railties (>= 6.1.0)
     faker (3.5.2)
@@ -319,7 +319,7 @@ PLATFORMS
 
 DEPENDENCIES
   dotenv-rails (~> 3.1.8)
-  factory_bot_rails (~> 6.5.0)
+  factory_bot_rails (~> 6.5.1)
   faker (~> 3.5.2)
   foreman (~> 0.90.0)
   letter_opener (~> 1.10.0)
