@@ -7,7 +7,7 @@ ruby '3.4.5'
 
 gem 'mailgun-ruby', '~> 1.3.9'
 gem 'pg', '~> 1.6.1'
-gem 'puma', '~> 6.6.1'
+gem 'puma', '~> 7.0.1'
 gem 'rails', '~> 8.0.2'
 gem 'turbo-rails', '~> 2.0.16'
 gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
