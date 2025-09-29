@@ -24,7 +24,7 @@ end
 group :development do
   gem 'foreman', '~> 0.90.0'
   gem 'letter_opener', '~> 1.10.0'
-  gem 'rubocop-rails', '~> 2.32.0', require: false
+  gem 'rubocop-rails', '~> 2.33.4', require: false
 end
 
 group :test do
