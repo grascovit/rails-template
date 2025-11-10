@@ -9,7 +9,7 @@
     "@tailwindcss/forms": "^0.5.10",
     "@tailwindcss/vite": "^4.1.16",
     "stimulus-vite-helpers": "^3.1.0",
-    "tailwindcss": "4.1.16"
+    "tailwindcss": "4.1.17"
   },
   "scripts": {
     "build": "vite build --outDir public"
