@@ -6,7 +6,7 @@
   "dependencies": {
     "@hotwired/stimulus": "^3.2.2",
     "@hotwired/turbo-rails": "^8.0.20",
-    "@tailwindcss/forms": "^0.5.10",
+    "@tailwindcss/forms": "^0.5.11",
     "@tailwindcss/vite": "^4.1.16",
     "stimulus-vite-helpers": "^3.1.0",
     "tailwindcss": "4.1.16"
