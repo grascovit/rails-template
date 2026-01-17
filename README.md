@@ -1,6 +1,6 @@
 # Rails Template
 
-Rails 8.0 application template that includes TailwindCSS, Stimulus and Vite.
+Rails 8.1 application template that includes TailwindCSS, Stimulus and Vite.
 
 A variant with minimal magic link authentication is available on the [`features/user-authentication`](https://github.com/grascovit/rails-template/tree/features/user-authentication) branch. To get started, follow the instructions in `README.md`.
 
