@@ -824,10 +824,10 @@ tslib@^2.4.0:
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.8.1.tgz#612efe4ed235d567e8aba5f2a5fab70280ade83f"
   integrity sha512-oJFu94HQb+KVduSUQL7wnpmqnfmLsOA/nAh6b6EH0wCEoK0/mPeXU6c3wKDV83MkOuHPRHtSXKKU99IBazS/2w==
 
-vite-plugin-ruby@5.1.0:
-  version "5.1.0"
-  resolved "https://registry.yarnpkg.com/vite-plugin-ruby/-/vite-plugin-ruby-5.1.0.tgz#489f2071ea6d86b5db735ea1fbbbe10e50e8e9bc"
-  integrity sha512-Dgd/dCvb/8GYxZx2NEgxygEoUpHz9vfad7itlO4fXqYwdfAEwFwwOohC630yf/+kxIGBZXI5yk+Y3WkL9VkwcA==
+vite-plugin-ruby@5.1.2:
+  version "5.1.2"
+  resolved "https://registry.yarnpkg.com/vite-plugin-ruby/-/vite-plugin-ruby-5.1.2.tgz#a478e94679b9da7c443cf3156c882f244e72a6da"
+  integrity sha512-aIhAhq9BOVhfWGYuludgYK9ch58SQClpDVyF8WfpNsr5xr6dCw24mgpFso2KsXYONGYzX2kDt+cca54nDzkitg==
   dependencies:
     debug "^4.3.4"
     fast-glob "^3.3.2"
