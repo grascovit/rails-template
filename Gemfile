@@ -11,7 +11,7 @@ gem 'puma', '~> 7.2.0'
 gem 'rails', '~> 8.1.2'
 gem 'turbo-rails', '~> 2.0.23'
 gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
-gem 'vite_rails', '~> 3.0.20'
+gem 'vite_rails', '~> 3.10.0'
 
 group :development, :test do
   gem 'dotenv-rails', '~> 3.2.0'
