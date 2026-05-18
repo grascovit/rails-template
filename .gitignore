@@ -38,3 +38,10 @@ node_modules
 
 # RSpec
 spec/examples.txt
+
+# AI
+AGENTS.md
+CLAUDE.md
+
+# macOS
+**/.DS_Store
