@@ -3,7 +3,7 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby '3.4.8'
+ruby '4.0.5'
 
 gem 'dotenv-rails', '~> 3.2.0'
 gem 'jwt', '~> 3.2.0'
@@ -13,7 +13,7 @@ gem 'puma', '~> 8.0.1'
 gem 'rails', '~> 8.1.3'
 gem 'turbo-rails', '~> 2.0.23'
 gem 'tzinfo-data', '~> 1.2026.2', platforms: %i[mingw mswin x64_mingw jruby]
-gem 'vite_rails', '~> 3.11.0'
+gem 'vite_rails', '~> 3.11.1'
 
 group :development, :test do
   gem 'factory_bot_rails', '~> 6.5.1'
@@ -29,5 +29,5 @@ group :development do
 end
 
 group :test do
-  gem 'shoulda-matchers', '~> 7.0.1'
+  gem 'shoulda-matchers', '~> 8.0.1'
 end
