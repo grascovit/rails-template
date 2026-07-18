@@ -92,4 +92,10 @@ Rails.application.configure do
   #
   # Skip DNS rebinding protection for the default health check endpoint.
   # config.host_authorization = { exclude: ->(request) { request.path == "/up" } }
+
+  # Action Cable
+  config.action_cable.allowed_request_origins = [
+    "https://#{ENV.fetch('BASE_URL', 'localhost')}",
+    "http://#{ENV.fetch('BASE_URL', 'localhost')}"
+  ]
 end

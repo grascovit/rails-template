@@ -41,3 +41,14 @@ plugin :solid_queue if ENV['SOLID_QUEUE_IN_PUMA']
 # Specify the PID file. Defaults to tmp/pids/server.pid in development.
 # In other environments, only set the PID file if requested.
 pidfile ENV['PIDFILE'] if ENV['PIDFILE']
+
+# When running behind a reverse proxy (e.g. Nginx), bind Puma to a Unix
+# socket instead of a TCP port and redirect logs/PID files under tmp/.
+if ENV.fetch('UNIX_SOCKET', false)
+  app_dir = File.expand_path('..', __dir__)
+  tmp_dir = "#{app_dir}/tmp"
+  bind "unix://#{tmp_dir}/sockets/puma.sock"
+  stdout_redirect "#{tmp_dir}/log/puma.stdout.log", "#{tmp_dir}/log/puma.stderr.log", true
+  pidfile "#{tmp_dir}/pids/puma.pid"
+  state_path "#{tmp_dir}/pids/puma.state"
+end
